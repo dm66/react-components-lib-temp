@@ -1,6 +1,8 @@
+// more config: https://d.umijs.org/config
+
 import { defineConfig } from 'dumi';
 
-const BaseUrl = '/dm66';
+const BaseUrl = '/react-components-lib-temp'; // 访问的仓库路径
 
 export default defineConfig({
   title: 'test-dumi-lib',
@@ -8,7 +10,6 @@ export default defineConfig({
     'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
   logo: 'https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png',
   outputPath: 'docs-dist',
-  // more config: https://d.umijs.org/config
   // 打包路径配置
   base: BaseUrl,
   publicPath: BaseUrl + '/', // 打包文件时，引入地址生成 publicPath/xxx.js
@@ -29,6 +30,6 @@ export default defineConfig({
 
   // 主题
   theme: {
-    '@c-primary': '#16c35f',
+    '@c-primary': '#03a9f4',
   },
 });
