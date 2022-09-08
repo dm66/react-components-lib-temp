@@ -1,33 +1,32 @@
 {
-  "private": true,
   "name": "test-dumi-lib",
   "version": "1.0.0",
+  "private": true,
   "homepage": "https://dm66.github.io/react-components-lib-temp/",
-  "scripts": {
-    "start": "dumi dev",
-    "docs:build": "dumi build",
-    "docs:deploy": "gh-pages -d docs-dist",
-    "build": "father build",
-    "deploy": "npm run docs:build && npm run docs:deploy",
-    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
-    "test": "umi-test",
-    "test:coverage": "umi-test --coverage",
-    "prepublishOnly": "npm run build",
-    "release": "npm publish"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dm66/react-components-lib-temp.git"
   },
-  "files": [
-    "dist"
+  "sideEffects": [
+    "./src/**/*.scss"
   ],
   "main": "./index.ts",
   "module": "dist/esm/index.js",
   "typings": "dist/esm/index.d.ts",
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
-  "sideEffects": ["./src/**/*.less"],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dm66/react-components-lib-temp.git"
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "father build",
+    "deploy": "npm run docs:build && npm run docs:deploy",
+    "docs:build": "dumi build",
+    "docs:deploy": "gh-pages -d docs-dist",
+    "prepublishOnly": "npm run build",
+    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
+    "release": "npm publish",
+    "start": "dumi dev",
+    "test": "umi-test",
+    "test:coverage": "umi-test --coverage"
   },
   "lint-staged": {
     "*.{js,jsx,less,scss,md,json}": [
@@ -52,5 +51,8 @@
     "lint-staged": "^10.0.7",
     "prettier": "^2.2.1",
     "yorkie": "^2.0.0"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
   }
 }

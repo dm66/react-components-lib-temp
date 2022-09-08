@@ -1,33 +1,37 @@
 # test-dumi-lib
 
+了解 father: https://github.com/umijs/father
+
+教你使用 Dumi 和 father-build 快速搭建 React 组件库: https://juejin.cn/post/6904795653243994125#heading-11
+
 ## Getting Started
 
 Install dependencies,
 
 ```bash
-$ npm i
+$ yarn
 ```
 
 Start the dev server,
 
 ```bash
-$ npm start
+$ yarn start
 ```
 
 Build documentation,
 
 ```bash
-$ npm run docs:build
+$ yarn docs:build
 ```
 
 Run test,
 
 ```bash
-$ npm test
+$ yarn test
 ```
 
 Build library via `father`,
 
 ```bash
-$ npm run build
+$ yarn build
 ```
