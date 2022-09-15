@@ -1,4 +1,4 @@
-# test-dumi-lib
+# test-dumi-father-lib
 
 了解 father: https://github.com/umijs/father
 

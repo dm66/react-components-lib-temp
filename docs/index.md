@@ -1,4 +1,4 @@
-## Hello test-dumi-lib!
+## Hello test-dumi-father-lib!
 
 了解 father: https://github.com/umijs/father
 

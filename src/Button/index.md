@@ -4,7 +4,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Button } from 'test-dumi-lib';
+import { Button } from 'test-dumi-father-lib';
 
 export default () => <Button title="按钮" />;
 ```
@@ -17,7 +17,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Button } from 'test-dumi-lib';
+import { Button } from 'test-dumi-father-lib';
 
 export default () => <Button title="按钮" />;
 ```
@@ -28,7 +28,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Button } from 'test-dumi-lib';
+import { Button } from 'test-dumi-father-lib';
 
 export default () => <Button title="按钮" />;
 ```
