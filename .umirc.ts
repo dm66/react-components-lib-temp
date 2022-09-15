@@ -1,7 +1,7 @@
 // more config: https://d.umijs.org/config
 import { defineConfig } from 'dumi';
 
-const BaseUrl = '/react-components-lib-temp'; // 访问的仓库路径
+const BaseUrl = '/test-dumi-father-lib'; // 访问的仓库路径
 
 export default defineConfig({
   title: 'test-dumi-father-lib',

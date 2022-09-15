@@ -1,11 +1,11 @@
 {
-  "name": "test-dumi-lib",
+  "name": "test-dumi-father-lib",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://dm66.github.io/react-components-lib-temp/",
+  "homepage": "https://dm66.github.io/test-dumi-father-lib/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dm66/test-story-father-components.git"
+    "url": "git+https://github.com/dm66/test-dumi-father-lib.git"
   },
   "sideEffects": [
     "./src/**/*.scss"
