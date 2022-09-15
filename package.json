@@ -5,12 +5,12 @@
   "homepage": "https://dm66.github.io/react-components-lib-temp/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dm66/react-components-lib-temp.git"
+    "url": "git+https://github.com/dm66/test-story-father-components.git"
   },
   "sideEffects": [
     "./src/**/*.scss"
   ],
-  "main": "./index.ts",
+  "main": "./src/index.ts",
   "module": "dist/esm/index.js",
   "typings": "dist/esm/index.d.ts",
   "files": [
